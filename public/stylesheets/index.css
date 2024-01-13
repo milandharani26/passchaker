@@ -1,0 +1,9 @@
+.index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(57, 57, 114);
+    width: 400px;
+    height: 400px;
+}

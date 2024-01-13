@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        form input{
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="/register" method="post">
+            <input type="text" name="username" placeholder="Enter User Name">
+            <input type="text" name="Pic" placeholder="Enter User Pic">
+            <input type="password" name="password" placeholder="Enter Password">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
